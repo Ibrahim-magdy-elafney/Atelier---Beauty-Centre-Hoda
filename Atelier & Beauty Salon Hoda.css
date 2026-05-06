@@ -46,14 +46,14 @@ body {
     padding: 0;
 
     flex-direction: row;
-    width: 430px;
+    width: 440px;
     gap: 15px;
 
     align-items: center;
 
     color: #fff;
     border: 1px solid rgb(237, 6, 206);
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 3px;
 
 

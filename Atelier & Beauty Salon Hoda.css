@@ -1,0 +1,265 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    background: #5300a0;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .box {
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+
+        align-items: center;
+
+        color: #fff;
+        border: 1px solid rgb(237, 6, 206);
+
+    }
+
+}
+
+.box li {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.logo {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-right: 100px;
+
+}
+
+@media (max-width: 768px) {
+
+    section {
+        background: #121212;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+
+        margin-left: 50px;
+        background: #121212;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+}
+
+h1,
+h2,
+h3 {
+
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
+
+button {
+
+    background: #ff00d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
+
+
+button:hover {
+
+    background: #cc00bb;
+
+}
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .flex {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+}
+
+.text {
+
+    width: 100%;
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+.Note {
+
+    color: white;
+
+}
+
+select {
+
+    color: white;
+
+}
+
+.date {
+
+    color: white;
+
+}
+
+.time {
+
+    color: white;
+
+}
+
+.Username {
+
+    color: white;
+
+}
+
+
+.text {
+
+    color: white;
+
+}
+
+.email {
+
+    color: white;
+
+}
+
+label {
+
+    color: white;
+
+}
+
+.Facebook {
+
+    color: #121212;
+
+
+}
+
+.Designer {
+
+    color: #121212;
+
+}
+
+.box a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu-card {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-card {
+        flex-direction: column;
+    }
+}

@@ -17,7 +17,7 @@ form.addEventListener("submit", function (e) {
     const date2 = document.querySelectorAll(".date")[1].value;
     const time2 = document.querySelectorAll(".time")[1].value;
 
-    if (!name || !email || !phoneNumber || !date1 || !time1) {
+    if (!name || !phoneNumber || !date1 || !time1) {
         result.style.color = "red";
         result.innerText = "من فضلك املي البيانات الأساسية!";
         return;

@@ -1,5 +1,5 @@
 const form = document.getElementById("form");
-const meal = document.getElementById("meal");
+const Program = document.getElementById("Program");
 const result = document.getElementById("result");
 const total = document.getElementById("total");
 
@@ -8,6 +8,7 @@ form.addEventListener("submit", function (e) {
 
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
+    const phoneNumber = document.getElementById("phoneNumber").value.trim();
     const messageField = document.getElementById("message").value;
 
     const date1 = document.querySelectorAll(".date")[0].value;
@@ -16,16 +17,16 @@ form.addEventListener("submit", function (e) {
     const date2 = document.querySelectorAll(".date")[1].value;
     const time2 = document.querySelectorAll(".time")[1].value;
 
-    if (!name || !email || !date1 || !time1) {
+    if (!name || !email || !phoneNumber || !date1 || !time1) {
         result.style.color = "red";
         result.innerText = "من فضلك املي البيانات الأساسية!";
         return;
     }
 
-    const price = Number(meal.value);
-    const serviceText = meal.options[meal.selectedIndex].text;
+    const price = Number(Program.value);
+    const serviceText = Program.options[Program.selectedIndex].text;
 
-    total.innerText = `السعر التقريبي: ${price} جنيه`;
+    total.innerText = `السعر التقريبي: ${price.toLocaleString()} جنيه`;
 
     result.style.color = "green";
     result.innerText = "تم إرسال الطلب بنجاح 💄";
@@ -33,10 +34,12 @@ form.addEventListener("submit", function (e) {
     const message = `✨ طلب حجز جديد
 
 👩 الاسم: ${name}
+📞 رقم التليفون: ${phoneNumber}
 📧 الايميل: ${email}
 
 💄 الخدمة: ${serviceText}
-💰 السعر: ${price} جنيه
+
+💰 السعر التقريبي: ${price.toLocaleString()} جنيه
 
 📅 ميعاد الحجز: ${date1}
 ⏰ الساعة: ${time1}
@@ -46,11 +49,11 @@ form.addEventListener("submit", function (e) {
 
 📝 ملاحظات: ${messageField || "لا يوجد"}`;
 
-    const phone = "2010xxxxxxxx"; // رقم العميل
+    const phone = "2010xxxxxxxx";
 
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
     setTimeout(() => {
         window.open(url, "_blank");
-    }, 1000);
+    }, 800);
 });

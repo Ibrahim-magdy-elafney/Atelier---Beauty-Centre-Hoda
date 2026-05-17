@@ -170,6 +170,39 @@ button:hover {
 
 }
 
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -190,6 +223,29 @@ img {
         object-fit: cover;
     }
 }
+
+.makeup-brush {
+
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.makeup-brush1 {
+
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
+
 
 .Note {
 

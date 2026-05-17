@@ -52,7 +52,7 @@ body {
     align-items: center;
 
     color: #fff;
-    border: 1px solid rgb(237, 6, 206);
+    border: 1px solid rgb(221, 237, 6);
     font-size: 8px;
     margin-left: 3px;
 
@@ -238,8 +238,8 @@ img {
 
 .makeup-brush1 {
 
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     margin: 0;
     padding: 0;
     object-fit: contain;

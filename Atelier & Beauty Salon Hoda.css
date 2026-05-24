@@ -222,10 +222,10 @@ img {
     }
 }
 
-.makeup-brush {
+.makeup {
 
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     margin: 0;
     padding: 0;
     object-fit: contain;
@@ -234,7 +234,7 @@ img {
 
 }
 
-.makeup-brush1 {
+.makeup1 {
 
     width: 160px;
     height: 160px;
@@ -254,37 +254,52 @@ img {
 select {
 
     color: white;
+    text-align: center;
 
 }
 
 .date {
 
     color: white;
+    text-align: center;
 
 }
 
 .time {
 
     color: white;
+    text-align: center;
 
 }
 
 .Username {
 
     color: white;
+    text-align: center;
 
 }
 
+.message-box {
 
-.text {
+    width: 165px;
+    min-height: 80px;
 
     color: white;
+    background: #fff;
+    border: 1px solid rgb(221, 237, 6);
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    resize: vertical;
 
 }
 
 .email {
 
     color: white;
+    text-align: center;
 
 }
 
